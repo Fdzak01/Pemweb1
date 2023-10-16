@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al-Itqan.Web</title>
+</head>
+<body style="margin: 0%;padding: 0%;">
+    <nav style="background-color: whitesmoke;">
+        <table style="padding: 5px; font-family: Arial, Helvetica, sans-serif;">
+            <tr>
+                <td><img src="Logo Al-Itqan.png" alt="Logo" width="30px" style="padding-left: 20px;"></td>
+                <td><a style="text-decoration: none; padding-left: 30px; color: green;" href="Home">Home</a></td>
+                <td><a style="text-decoration: none; padding-left: 50px; color: green;" href="About">About</a></td>
+                <td><a style="text-decoration: none; padding-left: 50px; color: green;" href="Settings">Settings</a></td>
+
+                <td style="padding-left: 700px"><input type="text"></td>
+                <td><input type="button" value="search"></td>
+            </tr>
+        </table>
+    </nav>
+    <main style="display: flex;">
+    <div style="padding: 50px;">
+        <section style="border: 2px solid; width: 250px; height: 300px; border-color: green;"></sectionstyle></section>
+        <table>
+            <tr>
+            <label for="file">Chosee a Picture</label>
+            <td><input type="file" name="file" id="file"></td>
+            </tr>
+            <tr>
+            <td></td><input type="submit" value="Unggah"></td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <label for="">
+        <table>
+            <tr>
+                <td>Tittle here</td>
+                <td>:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Description</td>
+                <td>:</td>
+                <td><textarea name="Description" cols="30" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td>Account Number</td>
+                    <td>:</td>
+                    <td><Input type="number"></td>
+            </tr>
+            <tr>
+                <td>Bank</td>
+                <td>:</td>
+                <td><select name="Bank" size="1" multiple>
+                    <optgroup label="Bank">
+                    <option value="BRI">BRI</option>
+                    <option value="BNI">BNI</option>
+                    <option value="BCA">BCA</option>
+                    </optgroup></select>
+                </td>
+            </tr>
+            <tr>
+                <td>Account Holder</td>
+                <td>:</td>
+                <td><Input type="text"></td>
+            </tr>
+            <tr>
+                <td>Transaction</td>
+                <td>:</td>
+                <td><input type="number">
+            </tr>
+            <tr>
+                <td>*if the transaction is for 3 person, choose 3 from the drp list</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="send to mobile phone">send to mobile phone</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="send to email">send to email</td>
+            </tr>
+            <tr>
+                <td>Send to mobile phone</td>
+                <td>:</td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td>Send to Email</td>
+                <td>:</td>
+                <td><input type="email"></td>
+            </tr>
+        </table>
+        </label>
+    </div>
+    </main> 
+    <footer style="background-color: green; padding: 30px; text-align: center; margin-top: 50px; color: white;">
+        <div>
+            <p>Copyright &copy;form 2023</p>
+        </div>
+    </footer>   
+</body>
+</html>
