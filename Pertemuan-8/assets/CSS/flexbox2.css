@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header, footer {
+    height: 20vh;
+    background-color: khaki;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    height: 60vh;
+    display: flex;
+}
+
+article{
+    flex-grow: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+aside{
+    background-color: pink;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    background-color: aquamarine;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

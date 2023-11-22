@@ -1,0 +1,30 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    background-color: aquamarine;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+}
+
+header ul li{
+    padding: 0 10px;
+}
+
+h1{
+    margin :20px;
+}
+
+.majors{
+    margin-left: 70px;
+}
