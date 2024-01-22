@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form kita</title>
+    <link rel="stylesheet" href="Styleform.css">
+</head>
+
+<body>
+    <nav class="navbar">
+
+        <a href="#">
+            <h4>Data Karyawan</h4>
+        </a>
+
+        <a href="#">Master Data</a>
+
+        <a href="#">Tambah Data</a>
+
+    </nav>
+
+    <main>
+        <h4>
+            FORM ENTRY DATA PEGAWAI
+        </h4>
+
+        <form action="#">
+            <table>
+                <tr>
+                    <td><label for="nik">NIK</label></td>
+                    <td><input type="number" name="nik" id="nik"></td>
+                </tr>
+                <tr>
+                    <td><label for="nama">Nama</label></td>
+                    <td><input type="text" name="nama" id="nama"></td>
+                </tr>
+                <tr>
+                    <td><label for="tempatlahir">Tempat Lahir</label></td>
+                    <td><input type="text" name="tempatlahir" id="tempatlahir"></td>
+                </tr>
+                <tr>
+                    <td><label for="tgllahir">Tanggal Lahir</label></td>
+                    <td><input type="date" name="tgllahir" id="tgllahir"></td>
+                </tr>
+                <tr>
+                    <td><label for="alamat">Alamat</label></td>
+                    <td><textarea name="alamat" id="alamat" cols="21" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="notelp">No. Telepon</label></td>
+                    <td><input type="text" name="notelp" id="notelp"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="jabatan">Jabatan</label></td>
+                    <td><select name="jabatan" id="jabatan">
+                            <optgroup>
+                                <option value="">=pilih jabatan anda=</option>
+                                <option value="Magang">Magang</option>
+                                <option value="Kontrak">Kontrak</option>
+                                <option value="Tetap">Tetap</option>
+                            </optgroup>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td><label for="status">Status</label></td>
+                    <td><select name="status" id="status">
+                            <optgroup>
+                                <option value="">=Pilih Status Anda=</option>
+                                <option value="Lajang">Lajang</option>
+                                <option value="Duda">Duda</option>
+                                <option value="Janda">Janda</option>
+                            </optgroup>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td><button class="btn btn-blue" type="submit">Simpan</button></td>
+                    <td><button class="btn btn-red" type="reset">Batal</button></td>
+                </tr>
+            </table>
+        </form>
+    </main>
+</body>
+
+</html>

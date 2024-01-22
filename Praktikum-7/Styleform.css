@@ -1,0 +1,68 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.navbar{
+    background-color: black;
+    padding: 15px 100px;
+}
+
+.navbar a{
+    color: #aaa;
+    text-decoration: none;
+    margin: 0 10px ;
+}
+
+.navbar a h4{
+    display: inline;
+}
+
+h4{
+    text-align: center;
+    padding: 10px;
+    color: grey;
+    font-weight: 100;
+}
+
+form table{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td{
+    padding: 10px; 
+}
+
+label{
+    display: block;
+    text-align: end;
+    font-size: small;
+}
+
+.btn{
+    padding: 10px;
+    border-radius: 7;
+    border: 0;
+    color: #fff;
+}
+
+.btn-red{
+    background-color: #ee7770;
+}
+
+.btn-blue{
+    background-color: #33aabb;
+}
+
+input, select{
+    height: 25px;
+}
+
+input, select, textarea{
+    border-radius: 2px;
+    border: 1px solid #ccc;
+}

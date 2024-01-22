@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbox</title>
+</head>
+
+<body>
+    <div style=" width: 200px;border: 1px solid black;">
+        <div style=" height: 200px;" id="chatBox">
+        </div>
+        <div style="display: flex;">
+            <input type="text" id="chat">
+            <button onclick="send()">kirim</button>
+        </div>
+    </div>
+
+    <script>
+        function send() {
+            let chatBox = document.getElementById('chatBox')
+            let chat = document.getElementById('chat')
+
+            //isi chat box dengan chat yang dimasukan user
+            chatBox.innerHTML += chat.value + "<br>"
+
+            //hapus tsxt pada kolom input chat
+            chat.value = ""
+        }
+    </script>
+</body>
+
+</html>

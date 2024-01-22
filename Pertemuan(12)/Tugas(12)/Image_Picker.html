@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Image Picker</title>
+</head>
+
+<body>
+
+    <h1>Image Picker</h1>
+
+    <label for="imageDropdown">Pilih Gambar:</label>
+    <select id="imageDropdown" onchange="displayImage()">
+        <option>Gambar</option>
+        <option value="../Tugas(12)/Assets/Gambar01.jpeg">Gambar 1</option>
+        <option value="../Tugas(12)/Assets/Gambar02.jpeg">Gambar 2</option>
+        <option value="../Tugas(12)/Assets/Gambar03.jpeg">Gambar 3</option>
+        <option value="../Tugas(12)/Assets/Gambar04.jpeg">Gambar 4</option>
+    </select>
+
+    <div id="imageContainer">
+        <img id="selectedImage" src="" alt="">
+    </div>
+
+    <div id="alertBox"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
